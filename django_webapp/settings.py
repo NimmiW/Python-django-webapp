@@ -73,7 +73,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'django_webapp.wsgi.application'
 
-
+#https://medium.com/@viviennediegoencarnacion/getting-started-with-postgresql-on-mac-e6a5f48ee399
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
@@ -81,8 +81,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
-        'USER': 'ambabu',
-        'PASSWORD': 'testdb',
+        'USER': 'nrweerad',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '5432'
 

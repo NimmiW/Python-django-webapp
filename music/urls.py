@@ -1,4 +1,6 @@
-from django.conf.urls import url
+#from django.conf.urls import url
+from django.urls import re_path as url
+
 from django.urls import re_path, path
 from rest_framework.urlpatterns import format_suffix_patterns
 
